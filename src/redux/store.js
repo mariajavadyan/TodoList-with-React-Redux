@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import todosSlice from "./actions";
+import actions from "./actions";
 
 export const store = configureStore({
   reducer: {
-    todos: todosSlice,
+    todos: actions,
   },
 });
